@@ -1,0 +1,93 @@
+13:56:09.279 [main] INFO  com.example.demo.SareetaApplication - Starting SareetaApplication on 192.168.1.4.non-exists.ptr.local with PID 87974 (/Users/minh/nd035-c4-Security-and-DevOps/starter_code/target/classes started by minh in /Users/minh/nd035-c4-Security-and-DevOps) 
+13:56:09.287 [main] INFO  com.example.demo.SareetaApplication - No active profile set, falling back to default profiles: default 
+13:56:09.918 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+13:56:09.919 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+13:56:09.919 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37] 
+13:56:09.962 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+13:56:10.049 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+13:56:10.073 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final 
+13:56:10.129 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+13:56:10.174 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+13:56:10.248 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+13:56:10.257 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+13:56:10.503 [main] INFO  org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.example.demo.model.persistence.Item (class must be instantiated by Interceptor) 
+13:56:10.618 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+13:56:11.087 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+13:56:11.241 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+13:56:11.253 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+13:56:11.261 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+13:56:11.270 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+13:56:11.347 [main] INFO  com.example.demo.SareetaApplication - Started SareetaApplication in 2.268 seconds (JVM running for 2.739) 
+13:56:51.238 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+13:59:37.779 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+13:59:37.781 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+13:59:41.718 [main] INFO  com.example.demo.SareetaApplication - Starting SareetaApplication on 192.168.1.4.non-exists.ptr.local with PID 88028 (/Users/minh/nd035-c4-Security-and-DevOps/starter_code/target/classes started by minh in /Users/minh/nd035-c4-Security-and-DevOps) 
+13:59:41.725 [main] INFO  com.example.demo.SareetaApplication - No active profile set, falling back to default profiles: default 
+13:59:42.322 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+13:59:42.323 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+13:59:42.323 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37] 
+13:59:42.360 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+13:59:42.437 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+13:59:42.458 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final 
+13:59:42.508 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+13:59:42.551 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+13:59:42.620 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+13:59:42.628 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+13:59:42.833 [main] INFO  org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.example.demo.model.persistence.Item (class must be instantiated by Interceptor) 
+13:59:42.922 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+13:59:43.266 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+13:59:43.419 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+13:59:43.434 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+13:59:43.442 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+13:59:43.454 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+13:59:43.533 [main] INFO  com.example.demo.SareetaApplication - Started SareetaApplication in 1.992 seconds (JVM running for 2.378) 
+13:59:49.088 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+14:00:43.439 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+14:00:43.441 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+14:02:06.789 [main] INFO  com.example.demo.SareetaApplication - Starting SareetaApplication on 192.168.1.4.non-exists.ptr.local with PID 88066 (/Users/minh/nd035-c4-Security-and-DevOps/starter_code/target/classes started by minh in /Users/minh/nd035-c4-Security-and-DevOps) 
+14:02:06.796 [main] INFO  com.example.demo.SareetaApplication - No active profile set, falling back to default profiles: default 
+14:02:07.405 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+14:02:07.405 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+14:02:07.406 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37] 
+14:02:07.443 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+14:02:07.463 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+14:02:07.532 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+14:02:07.612 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+14:02:07.639 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final 
+14:02:07.693 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+14:02:07.734 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+14:02:07.956 [main] INFO  org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.example.demo.model.persistence.Item (class must be instantiated by Interceptor) 
+14:02:08.049 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+14:02:08.398 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+14:02:08.553 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+14:02:08.567 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+14:02:08.576 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+14:02:08.589 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+14:02:08.670 [main] INFO  com.example.demo.SareetaApplication - Started SareetaApplication in 2.035 seconds (JVM running for 2.468) 
+14:02:15.472 [http-nio-8081-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+14:04:12.747 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+14:04:12.750 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+14:04:16.792 [main] INFO  com.example.demo.SareetaApplication - Starting SareetaApplication on 192.168.1.4.non-exists.ptr.local with PID 88086 (/Users/minh/nd035-c4-Security-and-DevOps/starter_code/target/classes started by minh in /Users/minh/nd035-c4-Security-and-DevOps) 
+14:04:16.799 [main] INFO  com.example.demo.SareetaApplication - No active profile set, falling back to default profiles: default 
+14:04:17.405 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+14:04:17.406 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+14:04:17.406 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37] 
+14:04:17.443 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+14:04:17.462 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+14:04:17.530 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+14:04:17.609 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+14:04:17.632 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final 
+14:04:17.685 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+14:04:17.725 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+14:04:17.932 [main] INFO  org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.example.demo.model.persistence.Item (class must be instantiated by Interceptor) 
+14:04:18.000 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+14:04:18.375 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+14:04:18.541 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+14:04:18.553 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+14:04:18.561 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+14:04:18.576 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+14:04:18.656 [main] INFO  com.example.demo.SareetaApplication - Started SareetaApplication in 2.03 seconds (JVM running for 2.468) 
+14:04:32.118 [http-nio-8081-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+14:28:05.986 [SpringContextShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down' 
+14:28:05.996 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+14:28:05.998 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 

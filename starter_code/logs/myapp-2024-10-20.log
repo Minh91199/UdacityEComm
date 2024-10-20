@@ -1,0 +1,207 @@
+20:07:20.273 [main] INFO  c.e.demo.controllers.UserController - User created successfully! CreateUser
+20:07:20.305 [main] INFO  c.e.demo.controllers.ItemController - Item created successfully: item1 
+20:07:20.337 [main] INFO  c.e.demo.controllers.CartController - Cart Updated. 
+20:07:20.359 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! CreateOrder
+20:07:20.363 [main] INFO  c.e.demo.controllers.OrderController - Order submitted successfully! CreateOrder
+20:07:20.365 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! 
+20:07:20.504 [main] INFO  c.e.demo.SareetaApplicationTests - Starting SareetaApplicationTests on 192.168.1.4.non-exists.ptr.local with PID 76738 (started by minh in /Users/minh/nd035-c4-Security-and-DevOps/starter_code) 
+20:07:20.505 [main] INFO  c.e.demo.SareetaApplicationTests - No active profile set, falling back to default profiles: default 
+20:07:21.142 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+20:07:21.165 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final 
+20:07:21.182 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+20:07:21.218 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+20:07:21.295 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+20:07:21.304 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+20:07:21.561 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+20:07:22.000 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+20:07:22.317 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+20:07:22.328 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+20:07:22.341 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+20:07:22.435 [main] INFO  c.e.demo.SareetaApplicationTests - Started SareetaApplicationTests in 2.045 seconds (JVM running for 2.971) 
+20:07:22.460 [SpringContextShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down' 
+20:07:22.465 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+20:07:22.466 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+20:07:27.232 [main] INFO  c.e.demo.controllers.UserController - User created successfully! CreateUser
+20:07:27.257 [main] INFO  c.e.demo.controllers.ItemController - Item created successfully: item1 
+20:07:27.263 [main] INFO  c.e.demo.controllers.CartController - Cart Updated. 
+20:07:27.279 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! CreateOrder
+20:07:27.282 [main] INFO  c.e.demo.controllers.OrderController - Order submitted successfully! CreateOrder
+20:07:27.283 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! 
+20:07:27.470 [main] INFO  c.e.demo.SareetaApplicationTests - Starting SareetaApplicationTests on 192.168.1.4.non-exists.ptr.local with PID 76805 (started by minh in /Users/minh/nd035-c4-Security-and-DevOps/starter_code) 
+20:07:27.470 [main] INFO  c.e.demo.SareetaApplicationTests - No active profile set, falling back to default profiles: default 
+20:07:28.086 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+20:07:28.105 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final 
+20:07:28.120 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+20:07:28.159 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+20:07:28.229 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+20:07:28.236 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+20:07:28.459 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+20:07:28.845 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+20:07:29.161 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+20:07:29.168 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+20:07:29.178 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+20:07:29.253 [main] INFO  c.e.demo.SareetaApplicationTests - Started SareetaApplicationTests in 1.942 seconds (JVM running for 2.726) 
+20:07:29.280 [SpringContextShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down' 
+20:07:29.286 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+20:07:29.287 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+20:14:19.628 [main] INFO  c.e.demo.controllers.UserController - User created successfully! CreateUser
+20:14:19.661 [main] INFO  c.e.demo.controllers.ItemController - Item created successfully: item1 
+20:14:19.666 [main] INFO  c.e.demo.controllers.CartController - Cart Updated. 
+20:14:19.685 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! CreateOrder
+20:14:19.690 [main] INFO  c.e.demo.controllers.OrderController - Order submitted successfully! CreateOrder
+20:14:19.692 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! 
+20:14:19.844 [main] INFO  c.e.demo.SareetaApplicationTests - Starting SareetaApplicationTests on 192.168.1.4.non-exists.ptr.local with PID 77718 (started by minh in /Users/minh/nd035-c4-Security-and-DevOps/starter_code) 
+20:14:19.845 [main] INFO  c.e.demo.SareetaApplicationTests - No active profile set, falling back to default profiles: default 
+20:14:20.600 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+20:14:20.619 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final 
+20:14:20.632 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+20:14:20.663 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+20:14:20.742 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+20:14:20.748 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+20:14:20.964 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+20:14:21.351 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+20:14:21.628 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+20:14:21.637 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+20:14:21.646 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+20:14:21.758 [main] INFO  c.e.demo.SareetaApplicationTests - Started SareetaApplicationTests in 2.046 seconds (JVM running for 2.905) 
+20:14:21.791 [SpringContextShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down' 
+20:14:21.797 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+20:14:21.798 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+20:14:27.757 [main] INFO  c.e.demo.controllers.UserController - User created successfully! CreateUser
+20:14:27.803 [main] INFO  c.e.demo.controllers.ItemController - Item created successfully: item1 
+20:14:27.809 [main] INFO  c.e.demo.controllers.CartController - Cart Updated. 
+20:14:27.831 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! CreateOrder
+20:14:27.837 [main] INFO  c.e.demo.controllers.OrderController - Order submitted successfully! CreateOrder
+20:14:27.839 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! 
+20:14:27.956 [main] INFO  c.e.demo.SareetaApplicationTests - Starting SareetaApplicationTests on 192.168.1.4.non-exists.ptr.local with PID 77782 (started by minh in /Users/minh/nd035-c4-Security-and-DevOps/starter_code) 
+20:14:27.957 [main] INFO  c.e.demo.SareetaApplicationTests - No active profile set, falling back to default profiles: default 
+20:14:28.601 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+20:14:28.628 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final 
+20:14:28.647 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+20:14:28.700 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+20:14:28.802 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+20:14:28.810 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+20:14:29.078 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+20:14:29.532 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+20:14:29.864 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+20:14:29.872 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+20:14:29.885 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+20:14:29.965 [main] INFO  c.e.demo.SareetaApplicationTests - Started SareetaApplicationTests in 2.108 seconds (JVM running for 3.308) 
+20:14:29.994 [SpringContextShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down' 
+20:14:30.000 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+20:14:30.001 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+20:19:00.613 [main] INFO  c.e.demo.controllers.UserController - User created successfully! CreateUser
+20:19:00.651 [main] INFO  c.e.demo.controllers.ItemController - Item created successfully: item1 
+20:19:00.660 [main] INFO  c.e.demo.controllers.CartController - Cart Updated. 
+20:19:00.679 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! CreateOrder
+20:19:00.682 [main] INFO  c.e.demo.controllers.OrderController - Order submitted successfully! CreateOrder
+20:19:00.684 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! 
+20:19:00.844 [main] INFO  c.e.demo.SareetaApplicationTests - Starting SareetaApplicationTests on Minhs-MacBook-Pro.local with PID 78391 (started by minh in /Users/minh/nd035-c4-Security-and-DevOps/starter_code) 
+20:19:00.845 [main] INFO  c.e.demo.SareetaApplicationTests - No active profile set, falling back to default profiles: default 
+20:19:01.404 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+20:19:01.426 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final 
+20:19:01.442 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+20:19:01.478 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+20:19:01.545 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+20:19:01.551 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+20:19:01.759 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+20:19:02.117 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+20:19:02.397 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+20:19:02.404 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+20:19:02.413 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+20:19:02.482 [main] INFO  c.e.demo.SareetaApplicationTests - Started SareetaApplicationTests in 1.773 seconds (JVM running for 2.867) 
+20:19:02.506 [SpringContextShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down' 
+20:19:02.511 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+20:19:02.512 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+20:19:07.231 [main] INFO  c.e.demo.controllers.UserController - User created successfully! CreateUser
+20:19:07.274 [main] INFO  c.e.demo.controllers.ItemController - Item created successfully: item1 
+20:19:07.280 [main] INFO  c.e.demo.controllers.CartController - Cart Updated. 
+20:19:07.300 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! CreateOrder
+20:19:07.303 [main] INFO  c.e.demo.controllers.OrderController - Order submitted successfully! CreateOrder
+20:19:07.305 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! 
+20:19:07.403 [main] INFO  c.e.demo.SareetaApplicationTests - Starting SareetaApplicationTests on Minhs-MacBook-Pro.local with PID 78438 (started by minh in /Users/minh/nd035-c4-Security-and-DevOps/starter_code) 
+20:19:07.404 [main] INFO  c.e.demo.SareetaApplicationTests - No active profile set, falling back to default profiles: default 
+20:19:08.012 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+20:19:08.035 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final 
+20:19:08.051 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+20:19:08.088 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+20:19:08.158 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+20:19:08.165 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+20:19:08.394 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+20:19:08.933 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+20:19:09.265 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+20:19:09.274 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+20:19:09.291 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+20:19:09.413 [main] INFO  c.e.demo.SareetaApplicationTests - Started SareetaApplicationTests in 2.088 seconds (JVM running for 2.932) 
+20:19:09.478 [SpringContextShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down' 
+20:19:09.486 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+20:19:09.491 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+20:24:20.250 [main] INFO  c.e.demo.controllers.UserController - User created successfully! CreateUser
+20:24:20.277 [main] INFO  c.e.demo.controllers.ItemController - Item created successfully: item1 
+20:24:20.282 [main] INFO  c.e.demo.controllers.CartController - Cart Updated. 
+20:24:20.298 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! CreateOrder
+20:24:20.301 [main] INFO  c.e.demo.controllers.OrderController - Order submitted successfully! CreateOrder
+20:24:20.302 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! 
+20:24:20.411 [main] INFO  c.e.demo.SareetaApplicationTests - Starting SareetaApplicationTests on Minhs-MacBook-Pro.local with PID 79091 (started by minh in /Users/minh/nd035-c4-Security-and-DevOps/starter_code) 
+20:24:20.412 [main] INFO  c.e.demo.SareetaApplicationTests - No active profile set, falling back to default profiles: default 
+20:24:20.997 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+20:24:21.017 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final 
+20:24:21.031 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+20:24:21.065 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+20:24:21.137 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+20:24:21.143 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+20:24:21.351 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+20:24:21.763 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+20:24:22.064 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+20:24:22.071 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+20:24:22.081 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+20:24:22.147 [main] INFO  c.e.demo.SareetaApplicationTests - Started SareetaApplicationTests in 1.824 seconds (JVM running for 2.624) 
+20:24:22.178 [SpringContextShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down' 
+20:24:22.184 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+20:24:22.185 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+20:24:27.026 [main] INFO  c.e.demo.controllers.UserController - User created successfully! CreateUser
+20:24:27.060 [main] INFO  c.e.demo.controllers.ItemController - Item created successfully: item1 
+20:24:27.067 [main] INFO  c.e.demo.controllers.CartController - Cart Updated. 
+20:24:27.085 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! CreateOrder
+20:24:27.089 [main] INFO  c.e.demo.controllers.OrderController - Order submitted successfully! CreateOrder
+20:24:27.090 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! 
+20:24:27.184 [main] INFO  c.e.demo.SareetaApplicationTests - Starting SareetaApplicationTests on Minhs-MacBook-Pro.local with PID 79146 (started by minh in /Users/minh/nd035-c4-Security-and-DevOps/starter_code) 
+20:24:27.186 [main] INFO  c.e.demo.SareetaApplicationTests - No active profile set, falling back to default profiles: default 
+20:24:27.888 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+20:24:27.912 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final 
+20:24:27.929 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+20:24:27.967 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+20:24:28.040 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+20:24:28.047 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+20:24:28.296 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+20:24:28.723 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+20:24:29.073 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+20:24:29.083 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+20:24:29.094 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+20:24:29.172 [main] INFO  c.e.demo.SareetaApplicationTests - Started SareetaApplicationTests in 2.062 seconds (JVM running for 2.834) 
+20:24:29.198 [SpringContextShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down' 
+20:24:29.207 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+20:24:29.208 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+20:48:31.948 [main] INFO  c.e.demo.controllers.UserController - User created successfully! CreateUser
+20:48:31.975 [main] INFO  c.e.demo.controllers.ItemController - Item created successfully: item1 
+20:48:31.980 [main] INFO  c.e.demo.controllers.CartController - Cart Updated. 
+20:48:31.996 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! CreateOrder
+20:48:32.000 [main] INFO  c.e.demo.controllers.OrderController - Order submitted successfully! CreateOrder
+20:48:32.001 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! 
+20:48:32.124 [main] INFO  c.e.demo.SareetaApplicationTests - Starting SareetaApplicationTests on 192.168.1.4.non-exists.ptr.local with PID 82732 (started by minh in /Users/minh/UdacityEComm/starter_code) 
+20:48:32.125 [main] INFO  c.e.demo.SareetaApplicationTests - No active profile set, falling back to default profiles: default 
+20:48:32.761 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+20:48:32.790 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final 
+20:48:32.807 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+20:48:32.851 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+20:48:32.930 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+20:48:32.939 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+20:48:33.169 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+20:48:33.593 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+20:48:33.917 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+20:48:33.927 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+20:48:33.937 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+20:48:34.009 [main] INFO  c.e.demo.SareetaApplicationTests - Started SareetaApplicationTests in 1.987 seconds (JVM running for 2.89) 
+20:48:34.032 [SpringContextShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down' 
+20:48:34.038 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+20:48:34.040 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 

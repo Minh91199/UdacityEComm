@@ -1,0 +1,463 @@
+Started by user Le Huynh Nhat Minh
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins in /Users/minh/.jenkins/workspace/eComm
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Build)
+[Pipeline] dir
+Running in /Users/minh/nd035-c4-Security-and-DevOps/starter_code
+[Pipeline] {
+[Pipeline] sh
++ ./mvnw clean package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.example:auth-course >-----------------------
+[INFO] Building auth-course 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ auth-course ---
+[INFO] Deleting /Users/minh/nd035-c4-Security-and-DevOps/starter_code/target
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ auth-course ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ auth-course ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 23 source files to /Users/minh/nd035-c4-Security-and-DevOps/starter_code/target/classes
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ auth-course ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/minh/nd035-c4-Security-and-DevOps/starter_code/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ auth-course ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /Users/minh/nd035-c4-Security-and-DevOps/starter_code/target/test-classes
+[INFO] /Users/minh/nd035-c4-Security-and-DevOps/starter_code/src/test/java/com/example/demo/controllers/ItemControllerTest.java: /Users/minh/nd035-c4-Security-and-DevOps/starter_code/src/test/java/com/example/demo/controllers/ItemControllerTest.java uses unchecked or unsafe operations.
+[INFO] /Users/minh/nd035-c4-Security-and-DevOps/starter_code/src/test/java/com/example/demo/controllers/ItemControllerTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ auth-course ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.example.demo.controllers.UserControllerTest
+20:14:19.628 [main] INFO  c.e.demo.controllers.UserController - User created successfully! CreateUser
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.237 s - in com.example.demo.controllers.UserControllerTest
+[INFO] Running com.example.demo.controllers.ItemControllerTest
+20:14:19.661 [main] INFO  c.e.demo.controllers.ItemController - Item created successfully: item1 
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.example.demo.controllers.ItemControllerTest
+[INFO] Running com.example.demo.controllers.CartControllerTest
+20:14:19.666 [main] INFO  c.e.demo.controllers.CartController - Cart Updated. 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.demo.controllers.CartControllerTest
+[INFO] Running com.example.demo.controllers.OrderControllerTest
+20:14:19.685 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! CreateOrder
+20:14:19.690 [main] INFO  c.e.demo.controllers.OrderController - Order submitted successfully! CreateOrder
+20:14:19.692 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! 
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in com.example.demo.controllers.OrderControllerTest
+[INFO] Running com.example.demo.SareetaApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.2.RELEASE)
+
+20:14:19.844 [main] INFO  c.e.demo.SareetaApplicationTests - Starting SareetaApplicationTests on 192.168.1.4.non-exists.ptr.local with PID 77718 (started by minh in /Users/minh/nd035-c4-Security-and-DevOps/starter_code) 
+20:14:19.845 [main] INFO  c.e.demo.SareetaApplicationTests - No active profile set, falling back to default profiles: default 
+20:14:20.600 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+20:14:20.619 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final 
+20:14:20.632 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+20:14:20.663 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+20:14:20.742 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+20:14:20.748 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+Hibernate: 
+    
+    drop table if exists cart CASCADE 
+Hibernate: 
+    
+    drop table if exists cart_items CASCADE 
+Hibernate: 
+    
+    drop table if exists item CASCADE 
+Hibernate: 
+    
+    drop table if exists user CASCADE 
+Hibernate: 
+    
+    drop table if exists user_order CASCADE 
+Hibernate: 
+    
+    drop table if exists user_order_items CASCADE 
+Hibernate: 
+    
+    create table cart (
+       id bigint generated by default as identity,
+        total decimal(19,2),
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table cart_items (
+       cart_id bigint not null,
+        items_id bigint not null
+    )
+Hibernate: 
+    
+    create table item (
+       id bigint generated by default as identity,
+        description varchar(255) not null,
+        name varchar(255) not null,
+        price decimal(19,2) not null,
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table user (
+       id bigint generated by default as identity,
+        password varchar(255) not null,
+        username varchar(255) not null,
+        cart_id bigint,
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table user_order (
+       id bigint generated by default as identity,
+        total decimal(19,2),
+        user_id bigint not null,
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table user_order_items (
+       user_order_id bigint not null,
+        items_id bigint not null
+    )
+Hibernate: 
+    
+    alter table user 
+       add constraint UK_sb8bbouer5wak8vyiiy4pf2bx unique (username)
+Hibernate: 
+    
+    alter table cart_items 
+       add constraint FKbgmrxyvqs3kxt1im75fde3psy 
+       foreign key (items_id) 
+       references item
+Hibernate: 
+    
+    alter table cart_items 
+       add constraint FK99e0am9jpriwxcm6is7xfedy3 
+       foreign key (cart_id) 
+       references cart
+Hibernate: 
+    
+    alter table user 
+       add constraint FKtqa69bib34k2c0jhe7afqsao6 
+       foreign key (cart_id) 
+       references cart
+Hibernate: 
+    
+    alter table user_order 
+       add constraint FKj86u1x7csa8yd68ql2y1ibrou 
+       foreign key (user_id) 
+       references user
+Hibernate: 
+    
+    alter table user_order_items 
+       add constraint FKghpu6f1jrpho0deyeltq47u2u 
+       foreign key (items_id) 
+       references item
+Hibernate: 
+    
+    alter table user_order_items 
+       add constraint FKt6k533isn84ef898d6sln1xna 
+       foreign key (user_order_id) 
+       references user_order
+20:14:20.964 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+20:14:21.351 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+20:14:21.628 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+20:14:21.637 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+20:14:21.646 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+20:14:21.758 [main] INFO  c.e.demo.SareetaApplicationTests - Started SareetaApplicationTests in 2.046 seconds (JVM running for 2.905) 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.083 s - in com.example.demo.SareetaApplicationTests
+20:14:21.791 [SpringContextShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down' 
+Hibernate: 
+    
+    drop table if exists cart CASCADE 
+Hibernate: 
+    
+    drop table if exists cart_items CASCADE 
+Hibernate: 
+    
+    drop table if exists item CASCADE 
+Hibernate: 
+    
+    drop table if exists user CASCADE 
+Hibernate: 
+    
+    drop table if exists user_order CASCADE 
+Hibernate: 
+    
+    drop table if exists user_order_items CASCADE 
+20:14:21.797 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+20:14:21.798 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.1.1:jar (default-jar) @ auth-course ---
+[INFO] Building jar: /Users/minh/nd035-c4-Security-and-DevOps/starter_code/target/auth-course-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:2.3.2.RELEASE:repackage (repackage) @ auth-course ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.448 s
+[INFO] Finished at: 2024-10-20T20:14:23+07:00
+[INFO] ------------------------------------------------------------------------
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Test)
+[Pipeline] dir
+Running in /Users/minh/nd035-c4-Security-and-DevOps/starter_code
+[Pipeline] {
+[Pipeline] sh
++ ./mvnw test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.example:auth-course >-----------------------
+[INFO] Building auth-course 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ auth-course ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ auth-course ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ auth-course ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/minh/nd035-c4-Security-and-DevOps/starter_code/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ auth-course ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ auth-course ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.example.demo.controllers.UserControllerTest
+20:14:27.757 [main] INFO  c.e.demo.controllers.UserController - User created successfully! CreateUser
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.418 s - in com.example.demo.controllers.UserControllerTest
+[INFO] Running com.example.demo.controllers.ItemControllerTest
+20:14:27.803 [main] INFO  c.e.demo.controllers.ItemController - Item created successfully: item1 
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in com.example.demo.controllers.ItemControllerTest
+[INFO] Running com.example.demo.controllers.CartControllerTest
+20:14:27.809 [main] INFO  c.e.demo.controllers.CartController - Cart Updated. 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.demo.controllers.CartControllerTest
+[INFO] Running com.example.demo.controllers.OrderControllerTest
+20:14:27.831 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! CreateOrder
+20:14:27.837 [main] INFO  c.e.demo.controllers.OrderController - Order submitted successfully! CreateOrder
+20:14:27.839 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! 
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in com.example.demo.controllers.OrderControllerTest
+[INFO] Running com.example.demo.SareetaApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.2.RELEASE)
+
+20:14:27.956 [main] INFO  c.e.demo.SareetaApplicationTests - Starting SareetaApplicationTests on 192.168.1.4.non-exists.ptr.local with PID 77782 (started by minh in /Users/minh/nd035-c4-Security-and-DevOps/starter_code) 
+20:14:27.957 [main] INFO  c.e.demo.SareetaApplicationTests - No active profile set, falling back to default profiles: default 
+20:14:28.601 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+20:14:28.628 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final 
+20:14:28.647 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+20:14:28.700 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+20:14:28.802 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+20:14:28.810 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+Hibernate: 
+    
+    drop table if exists cart CASCADE 
+Hibernate: 
+    
+    drop table if exists cart_items CASCADE 
+Hibernate: 
+    
+    drop table if exists item CASCADE 
+Hibernate: 
+    
+    drop table if exists user CASCADE 
+Hibernate: 
+    
+    drop table if exists user_order CASCADE 
+Hibernate: 
+    
+    drop table if exists user_order_items CASCADE 
+Hibernate: 
+    
+    create table cart (
+       id bigint generated by default as identity,
+        total decimal(19,2),
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table cart_items (
+       cart_id bigint not null,
+        items_id bigint not null
+    )
+Hibernate: 
+    
+    create table item (
+       id bigint generated by default as identity,
+        description varchar(255) not null,
+        name varchar(255) not null,
+        price decimal(19,2) not null,
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table user (
+       id bigint generated by default as identity,
+        password varchar(255) not null,
+        username varchar(255) not null,
+        cart_id bigint,
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table user_order (
+       id bigint generated by default as identity,
+        total decimal(19,2),
+        user_id bigint not null,
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table user_order_items (
+       user_order_id bigint not null,
+        items_id bigint not null
+    )
+Hibernate: 
+    
+    alter table user 
+       add constraint UK_sb8bbouer5wak8vyiiy4pf2bx unique (username)
+Hibernate: 
+    
+    alter table cart_items 
+       add constraint FKbgmrxyvqs3kxt1im75fde3psy 
+       foreign key (items_id) 
+       references item
+Hibernate: 
+    
+    alter table cart_items 
+       add constraint FK99e0am9jpriwxcm6is7xfedy3 
+       foreign key (cart_id) 
+       references cart
+Hibernate: 
+    
+    alter table user 
+       add constraint FKtqa69bib34k2c0jhe7afqsao6 
+       foreign key (cart_id) 
+       references cart
+Hibernate: 
+    
+    alter table user_order 
+       add constraint FKj86u1x7csa8yd68ql2y1ibrou 
+       foreign key (user_id) 
+       references user
+Hibernate: 
+    
+    alter table user_order_items 
+       add constraint FKghpu6f1jrpho0deyeltq47u2u 
+       foreign key (items_id) 
+       references item
+Hibernate: 
+    
+    alter table user_order_items 
+       add constraint FKt6k533isn84ef898d6sln1xna 
+       foreign key (user_order_id) 
+       references user_order
+20:14:29.078 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+20:14:29.532 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+20:14:29.864 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+20:14:29.872 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+20:14:29.885 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+20:14:29.965 [main] INFO  c.e.demo.SareetaApplicationTests - Started SareetaApplicationTests in 2.108 seconds (JVM running for 3.308) 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.142 s - in com.example.demo.SareetaApplicationTests
+20:14:29.994 [SpringContextShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down' 
+Hibernate: 
+    
+    drop table if exists cart CASCADE 
+Hibernate: 
+    
+    drop table if exists cart_items CASCADE 
+Hibernate: 
+    
+    drop table if exists item CASCADE 
+Hibernate: 
+    
+    drop table if exists user CASCADE 
+Hibernate: 
+    
+    drop table if exists user_order CASCADE 
+Hibernate: 
+    
+    drop table if exists user_order_items CASCADE 
+20:14:30.000 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+20:14:30.001 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.663 s
+[INFO] Finished at: 2024-10-20T20:14:31+07:00
+[INFO] ------------------------------------------------------------------------
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Deploy)
+[Pipeline] dir
+Running in /Users/minh/nd035-c4-Security-and-DevOps/starter_code
+[Pipeline] {
+[Pipeline] sh
++ cp target/auth-course-0.0.1-SNAPSHOT.jar /Users/minh/deployment-directory
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Declarative: Post Actions)
+[Pipeline] echo
+CI/CD pipeline finished.
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS

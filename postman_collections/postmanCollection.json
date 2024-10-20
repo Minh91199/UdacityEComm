@@ -1,0 +1,429 @@
+{
+	"info": {
+		"_postman_id": "6e023552-3fdc-4645-9c9d-2084ef768719",
+		"name": "postmanCollections",
+		"description": "API Collection for CartController, UserController, ItemController, OrderController, and WebSecurity",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15294034"
+	},
+	"item": [
+		{
+			"name": "UserController",
+			"item": [
+				{
+					"name": "Create User",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"minh\",\n  \"password\": \"1234567\",\n  \"confirmPassword\": \"1234567\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8081/api/user/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"user",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8081/login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"minh\",\n  \"password\": \"1234567\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get User by ID",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaW5oIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImV4cCI6MTczMDI4NTI2MX0.OvXCOXN8yflTVr1FMawD04MrY9Uixi5OTsQDPRy4Z3Mis6085sTpyg_rqRBpLTwv22AlMC9kgKKGascykP-vkA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/api/user/id/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"user",
+								"id",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get User by Username",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaW5oIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImV4cCI6MTczMDI4NTI2MX0.OvXCOXN8yflTVr1FMawD04MrY9Uixi5OTsQDPRy4Z3Mis6085sTpyg_rqRBpLTwv22AlMC9kgKKGascykP-vkA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/api/user/minh",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"user",
+								"minh"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ItemController",
+			"item": [
+				{
+					"name": "Create Item",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaW5oIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImV4cCI6MTczMDI4NTY4Mn0.ogbAI6R8IgyyBvSdgU_WvieqIndE5yVghy4C8b-7ja5uddbT8V5RSs1tU1mtn1GK9CXdK9SoZupiHpAA97OTew",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"item1\",\n  \"description\": \"item description\",\n  \"price\": 10.0\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8081/api/item/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"item",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Items",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaW5oIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImV4cCI6MTczMDI4NTY4Mn0.ogbAI6R8IgyyBvSdgU_WvieqIndE5yVghy4C8b-7ja5uddbT8V5RSs1tU1mtn1GK9CXdK9SoZupiHpAA97OTew",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/api/item",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"item"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Item by ID",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaW5oIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImV4cCI6MTczMDI4NTI2MX0.OvXCOXN8yflTVr1FMawD04MrY9Uixi5OTsQDPRy4Z3Mis6085sTpyg_rqRBpLTwv22AlMC9kgKKGascykP-vkA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/api/item/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"item",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Items by Name",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaW5oIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImV4cCI6MTczMDI4NTI2MX0.OvXCOXN8yflTVr1FMawD04MrY9Uixi5OTsQDPRy4Z3Mis6085sTpyg_rqRBpLTwv22AlMC9kgKKGascykP-vkA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/api/item/name/item1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"item",
+								"name",
+								"item1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CartController",
+			"item": [
+				{
+					"name": "Add to Cart",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaW5oIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImV4cCI6MTczMDI4NTY4Mn0.ogbAI6R8IgyyBvSdgU_WvieqIndE5yVghy4C8b-7ja5uddbT8V5RSs1tU1mtn1GK9CXdK9SoZupiHpAA97OTew",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"minh\",\n  \"itemId\": 1,\n  \"quantity\": 1\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8081/api/cart/addToCart",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"cart",
+								"addToCart"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Remove from Cart",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaW5oIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImV4cCI6MTczMDI4NTY4Mn0.ogbAI6R8IgyyBvSdgU_WvieqIndE5yVghy4C8b-7ja5uddbT8V5RSs1tU1mtn1GK9CXdK9SoZupiHpAA97OTew",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"minh\",\n  \"itemId\": 1,\n  \"quantity\": 1\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8081/api/cart/removeFromCart",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"cart",
+								"removeFromCart"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "OrderController",
+			"item": [
+				{
+					"name": "Submit Order",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaW5oIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImV4cCI6MTczMDI4NTY4Mn0.ogbAI6R8IgyyBvSdgU_WvieqIndE5yVghy4C8b-7ja5uddbT8V5RSs1tU1mtn1GK9CXdK9SoZupiHpAA97OTew",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/api/order/submit/minh",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"order",
+								"submit",
+								"minh"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Order History",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaW5oIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImV4cCI6MTczMDI4NTY4Mn0.ogbAI6R8IgyyBvSdgU_WvieqIndE5yVghy4C8b-7ja5uddbT8V5RSs1tU1mtn1GK9CXdK9SoZupiHpAA97OTew",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/api/order/history/minh",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"order",
+								"history",
+								"minh"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
